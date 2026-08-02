@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<article>
+  <a class="back-link" href="{{ '/talks/' | relative_url }}">&larr; All talks</a>
+  <header class="talk-header">
+    <h1 class="talk-title">{{ page.title }}</h1>
+    {% if page.event %}<div class="talk-event">{{ page.event }}{% if page.location %}, {{ page.location }}{% endif %}</div>{% endif %}
+    <div class="talk-meta">{{ page.date | date: "%B %-d, %Y" }}</div>
+  </header>
+
+  <div class="talk-resources">
+    {% if page.slides_url %}
+      <a class="resource-btn" href="{{ page.slides_url }}">Slides</a>
+    {% endif %}
+    {% if page.video_url %}
+      <a class="resource-btn" href="{{ page.video_url }}">Video</a>
+    {% endif %}
+    {% for d in page.downloads %}
+      <a class="resource-btn" href="{{ d.url }}">{{ d.label }}</a>
+    {% endfor %}
+  </div>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+</article>
