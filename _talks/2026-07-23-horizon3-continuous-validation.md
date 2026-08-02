@@ -1,7 +1,7 @@
 ---
 title: "Move Up the Maturity: From Point-in-Time Testing to Continuous Validation"
 event: "Horizon3.ai Collaboration Talk"
-date: 2026-01-01
+date: 2026-07-23
 video_url: "https://www.youtube.com/watch?v=GyFY8OUd6fs"
 downloads:
   - label: "Horizon3.ai"

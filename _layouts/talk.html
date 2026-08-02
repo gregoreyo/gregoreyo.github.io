@@ -9,15 +9,33 @@ layout: default
     <div class="talk-meta">{{ page.date | date: "%B %-d, %Y" }}</div>
   </header>
 
+  {% if page.video_url %}
+    {% assign video_id = page.video_url | split: "v=" | last | split: "&" | first %}
+    <div class="talk-video">
+      <iframe src="https://www.youtube-nocookie.com/embed/{{ video_id }}"
+              title="{{ page.title }}"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+              loading="lazy"></iframe>
+    </div>
+  {% endif %}
+
   <div class="talk-resources">
     {% if page.slides_url %}
-      <a class="resource-btn" href="{{ page.slides_url }}">Slides</a>
+      <a class="resource-btn" href="{{ page.slides_url | relative_url }}" target="_blank" rel="noopener">
+        <svg class="resource-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>
+        Slides (PDF)
+      </a>
     {% endif %}
     {% if page.video_url %}
-      <a class="resource-btn" href="{{ page.video_url }}">Video</a>
+      <a class="resource-btn resource-btn-video" href="{{ page.video_url }}" target="_blank" rel="noopener">
+        <svg class="resource-icon" viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+        Watch on YouTube
+      </a>
     {% endif %}
     {% for d in page.downloads %}
-      <a class="resource-btn" href="{{ d.url }}">{{ d.label }}</a>
+      <a class="resource-btn" href="{{ d.url }}" target="_blank" rel="noopener">{{ d.label }}</a>
     {% endfor %}
   </div>
 
