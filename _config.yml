@@ -8,8 +8,9 @@ baseurl: ""
 author:
   name: Anthony Castaño
   github: gregoreyo
-  # linkedin: your-linkedin-handle
-  # twitter: your-handle
+  linkedin: anthonycastano
+  twitter: yourhandle # placeholder
+  youtube: yourchannel # placeholder
 
 # --- Collections -------------------------------------------------------
 collections:

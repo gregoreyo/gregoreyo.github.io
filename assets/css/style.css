@@ -248,6 +248,36 @@ main {
   gap: 1.25rem;
 }
 
+/* --- about page --------------------------------------------------------- */
+
+.about-hero {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.about-hero .page-title,
+.about-hero .page-subtitle {
+  margin: 0;
+}
+
+.avatar-placeholder {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background: var(--background-elevated);
+  border: 1px solid var(--border-color);
+  color: var(--accent);
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
 /* --- card grid (home page sections) ------------------------------------ */
 
 .card-grid {
@@ -480,5 +510,9 @@ main {
   }
   .site-nav a {
     margin-left: 1rem;
+  }
+  .about-hero {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
