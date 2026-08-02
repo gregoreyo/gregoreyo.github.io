@@ -1,13 +1,12 @@
 title: gregoreyo
-tagline: Software engineer & occasional speaker
+tagline: Security practitioner & speaker
 description: >-
-  Personal site — blog posts, conference talks, and projects.
+  Personal site — conference talks and projects. Blog and contact are hosted at anthonycastano.com.
 url: "https://gregoreyo.github.io"
 baseurl: ""
 
 author:
-  name: Your Name
-  email: you@example.com
+  name: Anthony Castaño
   github: gregoreyo
   # linkedin: your-linkedin-handle
   # twitter: your-handle
@@ -19,11 +18,6 @@ collections:
     permalink: /talks/:path/
 
 defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: post
   - scope:
       path: ""
       type: talks
@@ -41,10 +35,7 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-permalink: /blog/:year/:month/:day/:title/
-
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
 
 exclude:

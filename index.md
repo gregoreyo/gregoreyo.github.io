@@ -13,7 +13,7 @@ title: Home
 </section>
 
 <div class="card-grid">
-  <a class="card" href="{{ '/blog/' | relative_url }}">
+  <a class="card" href="https://anthonycastano.com/">
     <span class="card-icon">&#9998;</span>
     <h3>Blog</h3>
     <p>Writing on things I'm building and learning.</p>
@@ -28,7 +28,7 @@ title: Home
     <h3>Projects</h3>
     <p>Things I've built, open source and otherwise.</p>
   </a>
-  <a class="card" href="{{ '/contact/' | relative_url }}">
+  <a class="card" href="https://anthonycastano.com/contact-me/">
     <span class="card-icon">&#9993;</span>
     <h3>Contact</h3>
     <p>Get in touch.</p>
