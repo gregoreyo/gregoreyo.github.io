@@ -1,50 +1,24 @@
 # gregoreyo.github.io
 
-Personal site for Anthony Castaño — conference talks and projects, built with
-[Jekyll](https://jekyllrb.com/) and hosted on GitHub Pages at
-[gregoreyo.github.io](https://gregoreyo.github.io).
+This is Anthony Castaño's personal website. It's a simple, single-purpose site for sharing:
 
-Blog and contact form live separately at [anthonycastano.com](https://anthonycastano.com).
+- **Talks** — slides, videos, and downloads from conferences I've spoken at
+- **Projects** — things I've built
+- **About** — a bit about my background and how to find me elsewhere online
 
-## Structure
+The blog and contact form live separately at [anthonycastano.com](https://anthonycastano.com); this site is just the talks/projects/about side of things.
 
-```
-_config.yml       Site settings, author info, collections
-_layouts/         default.html (base layout), talk.html (talk pages)
-_includes/        head.html, header.html, footer.html
-_talks/           One markdown file per talk (collection, rendered at /talks/:path/)
-assets/css/       Site stylesheet
-assets/slides/    Slide decks and other talk downloads
-index.md          Home page
-talks.md          Talks index (/talks/)
-projects.md       Projects index (/projects/)
-```
+It's built with [Jekyll](https://jekyllrb.com/) and hosted for free on [GitHub Pages](https://pages.github.com/) at [gregoreyo.github.io](https://gregoreyo.github.io).
 
-## Adding a talk
+## Adding a new talk
 
-Create a new file in `_talks/` named `YYYY-MM-DD-short-slug.md` with front matter:
+New talks go in the `_talks/` folder as a markdown file and show up automatically on the Talks page, sorted by date. Copy an existing file in that folder as a starting point for the front matter (title, event, date, links, etc.).
 
-```yaml
----
-title: "Talk Title"
-event: "Conference Name"
-location: "City, ST"
-date: YYYY-MM-DD
-video_url: "https://..."        # optional
-downloads:                       # optional
-  - label: "Slides"
-    url: "/assets/slides/talk.pdf"
----
-A short description of the talk. This is used as the excerpt on the talks index page.
-```
-
-It will automatically show up on `/talks/`, sorted by date.
-
-## Local development
+## Running it locally
 
 ```sh
 bundle install
 bundle exec jekyll serve
 ```
 
-Then visit `http://localhost:4000`.
+Then open `http://localhost:4000` in a browser.

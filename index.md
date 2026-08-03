@@ -5,11 +5,6 @@ title: Home
 <section class="hero">
   <h1>Hi, I'm <span class="accent">{{ site.author.name }}</span>.</h1>
   <p>{{ site.description }}</p>
-  <div class="social-links">
-    <a href="https://github.com/{{ site.author.github }}">GitHub</a>
-    {% if site.author.linkedin %}<a href="https://linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a>{% endif %}
-    {% if site.author.twitter %}<a href="https://twitter.com/{{ site.author.twitter }}">Twitter</a>{% endif %}
-  </div>
 </section>
 
 <div class="card-grid">
@@ -33,4 +28,11 @@ title: Home
     <h3>Contact</h3>
     <p>Get in touch.</p>
   </a>
+</div>
+
+<div class="social-links social-links-footer">
+  <a href="https://github.com/{{ site.author.github }}" aria-label="GitHub">{% include icon.html name="github" %}</a>
+  {% if site.author.linkedin %}<a href="https://linkedin.com/in/{{ site.author.linkedin }}" aria-label="LinkedIn">{% include icon.html name="linkedin" %}</a>{% endif %}
+  {% if site.author.twitter %}<a href="https://x.com/{{ site.author.twitter }}" aria-label="X">{% include icon.html name="x" %}</a>{% endif %}
+  {% if site.author.youtube %}<a href="https://youtube.com/@{{ site.author.youtube }}" aria-label="YouTube">{% include icon.html name="youtube" %}</a>{% endif %}
 </div>
