@@ -4,7 +4,7 @@ title: Home
 ---
 <section class="hero">
   <h1>Hi, I'm <span class="accent">{{ site.author.name }}</span>.</h1>
-  <p>{{ site.description }}</p>
+  <p>Personal site — conference talks and projects. Blog and contact are hosted at <a href="https://anthonycastano.com/">anthonycastano.com</a>.</p>
 </section>
 
 <div class="card-grid">

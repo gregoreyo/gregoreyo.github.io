@@ -11,61 +11,17 @@ permalink: /about/
   </div>
 </section>
 
-<p>I'm a cybersecurity analyst who's a little too into automation — if I can get a script to do it instead of me, I will. I get the same kick out of chasing down a good security problem as I do out of watching a pipeline run clean. Outside of work, you'll find me on the ultimate frisbee field or a few hours deep into whatever videogame has my attention this month.</p>
+<p>I'm a cybersecurity analyst who's spent all nine years of my career in the construction industry &mdash; threat analysis, incident response, security design, implementation, and security awareness training.</p>
 
-<p>Professionally, I'm an experienced cybersecurity analyst with a demonstrated history of working in the construction industry, skilled in threat analysis, incident response, security design, security implementation, and security awareness training.</p>
+<p>Somewhere along the way, automation became a personality trait. If I can get a script to do something instead of doing it myself twice, I will.</p>
 
-<h2>Experience</h2>
-<ul class="entry-list">
-  <li>
-    <div class="entry-meta">August 2021 &ndash; Present</div>
-    <h3>Cybersecurity Analyst &middot; SpawGlass</h3>
-    <p>Incident response, threat hunting, security awareness training, security design &amp; management, threat analysis, and vulnerability management.</p>
-  </li>
-  <li>
-    <div class="entry-meta">February 2020 &ndash; September 2021</div>
-    <h3>IT Service Desk Analyst &middot; SpawGlass</h3>
-    <p>Supported team member system access and asset/application deployment, and maintained technical and knowledge documentation.</p>
-  </li>
-  <li>
-    <div class="entry-meta">August 2018 &ndash; January 2020</div>
-    <h3>IT Coordinator &middot; SpawGlass</h3>
-    <p>Team member support, asset and application deployment, and conference room maintenance and support.</p>
-  </li>
-  <li>
-    <div class="entry-meta">2016 &ndash; 2018</div>
-    <h3>IT Intern &middot; SpawGlass</h3>
-    <p>Two internship terms supporting SpawGlass IT operations while in school.</p>
-  </li>
-</ul>
+<h2>Outside the office</h2>
 
-<h2>Education</h2>
-<ul class="entry-list">
-  <li>
-    <div class="entry-meta">2019 &ndash; 2022</div>
-    <h3>BBA, Cyber Security &middot; The University of Texas at San Antonio</h3>
-  </li>
-  <li>
-    <div class="entry-meta">2017 &ndash; 2019</div>
-    <h3>Lone Star College</h3>
-  </li>
-</ul>
+<p><strong>Magic: the Gathering</strong> &mdash; Commander is my go-to format lately. 100-card singleton decks, table politics, and someone always takes out my win condition right on turn four. I like a game where anyone could win.</p>
 
-<h2>Skills</h2>
-<div class="tag-list">
-  <span class="tag">Leadership</span>
-  <span class="tag">Relationship Building</span>
-  <span class="tag">Conference Presentations</span>
-</div>
+<p><strong>Ultimate frisbee</strong> &mdash; Pickup games whenever I can find them. Officially a hobby, unofficially the answer to "I should really go to the gym."</p>
 
-<h2>Certifications</h2>
-<div class="tag-list">
-  <span class="tag">Fortinet Certified Fundamentals in Cybersecurity</span>
-  <span class="tag">Cybersecurity Awareness</span>
-  <span class="tag">Controlled Unclassified Information (CUI) Training</span>
-  <span class="tag">Insider Threat Awareness</span>
-  <span class="tag">Unauthorized Disclosure of Classified Information and Controlled Unclassified Information</span>
-</div>
+<p><strong>Videogames</strong> &mdash; Whatever's got its hooks in me that month gets several hours a night and my full, undivided attention. Recent obsessions: Risk of Rain 2, Prison Architect, RimWorld.</p>
 
 <h2>Find me elsewhere</h2>
 <div class="card-grid">

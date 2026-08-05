@@ -182,8 +182,8 @@ img {
 
 .site-footer {
   border-top: 1px solid var(--border-color);
-  margin-top: 4rem;
-  padding: 2rem 0;
+  margin-top: 2.5rem;
+  padding: 1.5rem 0;
   color: var(--text-faint);
   font-size: 0.875rem;
 }
@@ -207,7 +207,7 @@ img {
 /* --- main / page content ----------------------------------------------- */
 
 main {
-  padding: 3rem 0 2rem;
+  padding: 2rem 0 1.5rem;
 }
 
 .page-title {
@@ -224,7 +224,7 @@ main {
 /* --- hero (home page) --------------------------------------------------- */
 
 .hero {
-  padding: 1rem 0 1rem;
+  padding: 0.5rem 0;
 }
 
 .hero h1 {
@@ -253,8 +253,8 @@ main {
   justify-content: center;
   align-items: center;
   gap: 1.75rem;
-  margin: 1rem 0 2rem;
-  padding-top: 2rem;
+  margin: 0.5rem 0 1rem;
+  padding-top: 1.5rem;
   border-top: 1px solid var(--border-color);
 }
 
@@ -278,7 +278,7 @@ main {
   display: flex;
   align-items: center;
   gap: 1.5rem;
-  margin-bottom: 2rem;
+  margin: 1.25rem 0 2rem;
 }
 
 .about-hero .page-title,
@@ -318,7 +318,7 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 1rem;
-  margin: 2.5rem 0;
+  margin: 2rem 0;
 }
 
 .card {
@@ -458,6 +458,7 @@ main {
 
 .back-link {
   display: inline-block;
+  margin-top: 0.5rem;
   margin-bottom: 2rem;
   color: var(--text-muted);
   font-size: 0.9rem;
