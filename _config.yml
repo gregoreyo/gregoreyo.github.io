@@ -5,6 +5,10 @@ description: >-
 url: "https://gregoreyo.github.io"
 baseurl: ""
 
+# Include documents dated in the future (e.g. upcoming talks announced ahead
+# of the event date). Without this, Jekyll excludes them from the build.
+future: true
+
 author:
   name: Anthony Castaño
   github: gregoreyo
